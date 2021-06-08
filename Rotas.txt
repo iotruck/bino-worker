@@ -1,0 +1,11 @@
+rota1:
+   De: R. São Maurício, 4903 - Km 18, Osasco - SP, 06110-250, Brasil
+   Para: R. Maranhão, 975 - Santa Paula, São Caetano do Sul - SP, 09541-001
+
+rota2:
+   De: Av. Chica Luisa, 503 - Vila Chica Luisa, São Paulo - SP, 05183-270, Brasil
+   Para: R. Huet Bacelar, 407 - Vila São José, São Paulo - SP, 04275-000, Brasil
+  
+rota3:
+   De: SP-019, s/n - Cumbica, Guarulhos - SP, 07190-000
+   Para: Estr. de Itapecerica, 2459 - Vila Maracana, São Paulo - SP, 05835-005, Brasil

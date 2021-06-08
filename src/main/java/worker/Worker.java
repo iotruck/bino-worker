@@ -24,7 +24,7 @@ public class Worker {
 
             try {
 
-                updateLocation("rota1", 1);
+                updateLocation("rota1", 30);
 
             } catch (Exception e) {
 
@@ -40,7 +40,7 @@ public class Worker {
 
             try {
 
-                updateLocation("rota2", 2);
+                updateLocation("rota2", 32);
 
             } catch (Exception e) {
 
@@ -56,7 +56,7 @@ public class Worker {
 
             try {
 
-                updateLocation("rota3", 3);
+                updateLocation("rota3", 34);
 
             } catch (Exception e) {
 
@@ -75,7 +75,7 @@ public class Worker {
         RequestBody body = RequestBody.create(json,mediaType);
         System.out.println(json);
         Request request = new Request.Builder()
-                .url("http://localhost:8080/location/" + idLocation)
+                .url("https://bino.iotruck.com.br/location/" + idLocation)
                 .method("PUT", body)
                 .addHeader("Content-Type", "application/json")
                 .build();
@@ -101,7 +101,7 @@ public class Worker {
         try {
 
             arq = new FileReader(nomeArquivo);
-            entrada = new Scanner(arq).useDelimiter(";|\\r\\n");
+            entrada = new Scanner(arq).useDelimiter(";|\\n");
 
         } catch (FileNotFoundException erro) {
 
